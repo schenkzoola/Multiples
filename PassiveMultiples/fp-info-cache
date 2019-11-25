@@ -1,4 +1,4 @@
-688539644620179
+690114372916554
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -48292,6 +48292,13 @@ DCDC-Converter TRACO TEN20 Generic
 0
 6
 6
+_NTSFootprints
+Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CenterHole_OvalPads
+TRS 3.5mm, vertical, Thonkiconn, PCB mount, (http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html)
+WQP-PJ398SM WQP-PJ301M-12 TRS 3.5mm mono vertical jack thonkiconn qingpu
+0
+3
+3
 _NTSFootprints
 LED_1206_2.15mmHole
 LED SMD 1206, hand soldering

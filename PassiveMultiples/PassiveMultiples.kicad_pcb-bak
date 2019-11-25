@@ -12,7 +12,7 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -131,13 +131,13 @@
     (add_net "Net-(SW1-Pad4)")
   )
 
-  (module _NTSFootprints:MHPS2285 (layer F.Cu) (tedit 5DDB5CEF) (tstamp 5DDB682A)
+  (module _NTSFootprints:MHPS2285 (layer F.Cu) (tedit 5DDB5CEF) (tstamp 5DDB8617)
     (at 157.5 90)
     (path /5DDCA2D6)
-    (fp_text reference SW1 (at 0.508 0) (layer F.SilkS)
+    (fp_text reference SW1 (at -4.5 0 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SW_Push_DPDT (at -0.127 -4.572) (layer F.Fab)
+    (fp_text value SW_Push_DPDT (at -0.127 -4.572) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -3.556 -3.556) (end 3.556 -3.556) (layer F.SilkS) (width 0.15))
