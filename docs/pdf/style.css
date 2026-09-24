@@ -22,7 +22,7 @@ body {
 
 /* Cover block at the top of page 1 */
 .cover { border-bottom: 2px solid var(--accent); padding-bottom: 10pt; margin-bottom: 16pt; }
-.cover .brand { font-size: 8.5pt; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); }
+.cover .brand { height: 8mm; max-height: none; width: auto; margin: 0 0 8pt; }
 .cover h1 { font-size: 26pt; line-height: 1.1; margin: 4pt 0 2pt; }
 .cover .doc-title { font-size: 15pt; font-weight: 600; }
 .cover .meta { font-size: 8.5pt; color: var(--muted); margin-top: 4pt; }
