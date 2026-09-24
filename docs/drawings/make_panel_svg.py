@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Generate faceplate line drawings from the KiCad faceplate file.
 
-Writes docs/images/panel.svg (annotated front view).
+Writes docs/images/panel.svg (annotated front view) and docs/images/panel-plain.svg
+(the panel alone, for packaging labels where small captions would be lost).
 Run from anywhere: python3 docs/drawings/make_panel_svg.py
 """
 import re
@@ -114,11 +115,19 @@ def annotated(outline, holes, *silk):
                "Passive Multiple front panel")
 
 
+def plain(outline, holes, *silk):
+    x0, y0, x1, y1 = outline
+    pad = 1
+    return svg((x0 - pad, y0 - pad, (x1 - x0) + 2 * pad, (y1 - y0) + 2 * pad), panel_body(outline, holes, *silk),
+               "Passive Multiple front panel")
+
+
 def main():
     data = parse(PCB)
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "panel.svg").write_text(annotated(*data))
-    print("wrote", OUT / "panel.svg")
+    (OUT / "panel-plain.svg").write_text(plain(*data))
+    print("wrote", OUT / "panel.svg", "and", OUT / "panel-plain.svg")
 
 
 if __name__ == "__main__":
