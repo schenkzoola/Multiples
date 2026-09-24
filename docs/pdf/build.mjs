@@ -37,6 +37,16 @@ function rewriteLinks(html) {
   });
 }
 
+// Chrome stamps each PDF with the build time, so unchanged docs would still
+// produce a new file on every build. Pin the stamps to the doc's "Updated"
+// date instead. The replacement is the same length, so the PDF stays valid.
+function pinTimestamps(pdf, date) {
+  const stamp = `D:${date.replaceAll("-", "")}000000`;
+  const text = Buffer.from(pdf).toString("latin1")
+    .replace(/\/(CreationDate|ModDate) \(D:\d{14}/g, (_, key) => `/${key} (${stamp}`);
+  return Buffer.from(text, "latin1");
+}
+
 function page(doc, body) {
   const fonts = pathToFileURL(join(HERE, "node_modules/@fontsource/inter/files")).href;
   const css = readFileSync(join(HERE, "style.css"), "utf8").replaceAll("FONT_DIR", fonts);
@@ -77,8 +87,7 @@ try {
     const tab = await browser.newPage();
     await tab.goto(pathToFileURL(htmlPath).href, { waitUntil: "networkidle0" });
     await tab.evaluate(() => document.fonts.ready);
-    await tab.pdf({
-      path: join(HERE, doc.out),
+    const pdf = await tab.pdf({
       format: "Letter",
       printBackground: true,
       displayHeaderFooter: true,
@@ -93,6 +102,7 @@ try {
       margin: { top: "16mm", bottom: "18mm", left: "16mm", right: "16mm" },
     });
     await tab.close();
+    writeFileSync(join(HERE, doc.out), pinTimestamps(pdf, doc.date));
     console.log("wrote", relative(ROOT, join(HERE, doc.out)));
   }
 } finally {
