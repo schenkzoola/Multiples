@@ -15,7 +15,7 @@ Check your kit against this list before you start (full details in the [BOM](BOM
 - [ ] 1 × main PCB
 - [ ] 1 × faceplate
 - [ ] 8 × 3.5 mm jacks with nuts
-- [ ] 1 × pushbutton switch (APEM MHPS2285)
+- [ ] 1 × latching pushbutton switch
 - [ ] 1 × button cap
 
 ### Tools
