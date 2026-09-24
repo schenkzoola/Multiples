@@ -51,6 +51,14 @@ All eight jacks are wired together, giving you 1 in and 7 out.
 
 The button is latching (push on, push off). When it is **in**, the banks are linked. When it is **out**, they are split.
 
+### Using the button as a performance switch
+
+The link button can also be played live. Patch a signal into Bank A and take it out of Bank B. The button then turns that signal on and off. Press it in time with the music to drop a part in and out, mute a modulation source, or cut a clock or gate stream.
+
+You can do this while still using both banks as multiples. Any other jacks in Bank A always carry the signal. The jacks in Bank B only carry it while the button is in.
+
+When the button is out, the Bank B jacks aren't connected to anything, so the modules patched from them get no signal. With audio, you may hear a small click when you switch. The switch changes sharply, so it works best on rhythmic material.
+
 ### Signals in any direction
 
 The jacks have no set inputs or outputs, so any jack works as either. You can also use a bank backwards: connect several inputs to one output, or connect one cable to a cable that is too short.
@@ -66,8 +74,8 @@ The jacks have no set inputs or outputs, so any jack works as either. You can al
 
 1. Power off your case. The module does not need power, but you should never work in a powered case.
 2. Place the module in any 3HP space. There is no ribbon cable to connect.
-3. Secure it with two M3 rack screws. Do not overtighten them, because the faceplate is FR4 PCB material.
+3. Secure it with two M3 rack screws. Do not overtighten them.
 
 ## Circuit
 
-Each jack's tip is wired to the other tips in its bank, and all sleeves are wired together. The two poles of the DPDT switch are wired in parallel between the Bank A tips and the Bank B tips. The schematic is in [PassiveMultiples/PassiveMultiples.sch](../PassiveMultiples/PassiveMultiples.sch) (KiCad 5).
+Each jack's tip is wired to the other tips in its bank, and all sleeves are wired together. The two poles of the switch are wired in parallel between the Bank A tips and the Bank B tips. The schematic is in [PassiveMultiples/PassiveMultiples.sch](../PassiveMultiples/PassiveMultiples.sch) (KiCad 5).
