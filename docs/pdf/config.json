@@ -1,0 +1,10 @@
+{
+  "product": "Passive Multiple",
+  "pcbVersion": "v1.0",
+  "repo": "schenkzoola/Multiples",
+  "branch": "master",
+  "documents": [
+    { "src": "manual.md", "out": "passive-multiple-manual.pdf", "title": "User Manual" },
+    { "src": "assembly-guide.md", "out": "passive-multiple-assembly-guide.pdf", "title": "Assembly Guide" }
+  ]
+}
