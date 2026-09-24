@@ -13,11 +13,11 @@ A 3HP Eurorack passive multiple from **Schenktronics**. It has two banks of four
 
 ## Documentation
 
-| Document | For |
-|----------|-----|
-| [User Manual](docs/manual.md) | Using the module |
-| [Assembly Guide](docs/assembly-guide.md) | Building the kit |
-| [Bill of Materials](docs/BOM.md) ([CSV](docs/BOM.csv)) | Parts and sourcing |
+| Document | For | PDF |
+|----------|-----|-----|
+| [User Manual](docs/manual.md) | Using the module | [PDF](docs/pdf/passive-multiple-manual.pdf) |
+| [Assembly Guide](docs/assembly-guide.md) | Building the kit | [PDF](docs/pdf/passive-multiple-assembly-guide.pdf) |
+| [Bill of Materials](docs/BOM.md) ([CSV](docs/BOM.csv)) | Parts and sourcing | |
 
 ## Repository layout
 
@@ -32,6 +32,8 @@ PassiveMultiplesFaceplate/   Faceplate (KiCad 5.1, made as a PCB)
   PassiveMultiplesFaceplate.dxf  Panel outline and drill drawing
   Gerbers/, *Gerbers.zip         Fabrication files
 docs/                        Manual, assembly guide, BOM, images
+  drawings/                    Scripts that generate the drawings
+  pdf/                         PDF versions and their build script
 ```
 
 ## Fabrication
