@@ -14,7 +14,7 @@ The module has no electronics beyond the jacks and the switch, so it does not ne
 |---|---|
 | Format | Eurorack, 3HP |
 | Panel | 15 × 128.5 mm |
-| Depth | About the height of the jacks (skiff-friendly) |
+| Depth | 15 mm (skiff-friendly) |
 | Power | None needed |
 | Jacks | 8 × 3.5 mm mono (TS) |
 | Switch | Latching push-on/push-off button (in = linked), rated 0.1 A / 30 VDC |
