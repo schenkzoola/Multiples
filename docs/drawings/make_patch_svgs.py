@@ -15,7 +15,7 @@ OUT = Path(__file__).resolve().parents[2] / "docs" / "images"
 
 GREY = "#777"
 BLUE = "#2a6fb0"  # second signal, for patches with two
-BOX_W, BOX_H = 34, 11
+BOX_W, BOX_H = 38, 11
 GAP = 22  # space between the panel and the module boxes
 
 
@@ -47,8 +47,8 @@ class Patch:
         x = self.x0 - GAP - BOX_W if side == "left" else self.x1 + GAP
         self.boxes += [f"<rect x='{x}' y='{y - BOX_H / 2}' width='{BOX_W}' height='{BOX_H}' rx='1.2' "
                        f"fill='#fff' stroke='{INK}' stroke-width='0.35'/>",
-                       text(x + BOX_W / 2, y - 1.7, title, 2.7, "bold"),
-                       text(x + BOX_W / 2, y + 2.3, sub, 2.1, color=GREY)]
+                       text(x + BOX_W / 2, y - 2, title, 3.4, "bold"),
+                       text(x + BOX_W / 2, y + 2.7, sub, 2.7, color=GREY)]
         return (x + BOX_W, y) if side == "left" else (x, y)
 
     def source(self, jack, title, sub, color=RED):
@@ -74,8 +74,8 @@ class Patch:
     def button_note(self, label, sub):
         bx, by = self.button
         x = self.x0 - 3
-        self.notes += [text(x, by - 1.5, label, 2.6, "bold", color=RED, anchor="end"),
-                       text(x, by + 2, sub, 2.1, color=GREY, anchor="end")]
+        self.notes += [text(x, by - 1.8, label, 3.2, "bold", color=RED, anchor="end"),
+                       text(x, by + 2.4, sub, 2.7, color=GREY, anchor="end")]
 
     def render(self, title):
         body = [f"<defs>{marker(RED, 'r')}{marker(BLUE, 'b')}</defs>"]

@@ -1,0 +1,53 @@
+# Rebuilds the PDF manual and assembly guide whenever the docs change,
+# and commits the updated PDFs back to master.
+name: Build PDFs
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "docs/*.md"
+      - "docs/images/**"
+      - "docs/pdf/build.mjs"
+      - "docs/pdf/style.css"
+      - "docs/pdf/package*.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pdf
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0 # the "Updated" date comes from git history
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: docs/pdf/package-lock.json
+
+      - name: Build PDFs
+        working-directory: docs/pdf
+        run: |
+          npm ci
+          npm run build
+
+      - name: Commit updated PDFs
+        run: |
+          git add docs/pdf/*.pdf
+          if git diff --cached --quiet; then
+            echo "PDFs unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Rebuild PDFs"
+          git push
