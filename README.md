@@ -38,7 +38,7 @@ PassiveMultiplesFaceplate/   Faceplate (KiCad 5.1, made as a PCB)
   Gerbers/, *Gerbers.zip         Fabrication files
 docs/                        Manual, assembly guide, BOM, images
   drawings/                    Scripts that generate the drawings
-  pdf/                         PDF versions and their build script
+  pdf/                         PDF versions and their build settings
 ```
 
 ## Fabrication
@@ -53,6 +53,8 @@ Upload the matching `*Gerbers.zip` to any common PCB fab.
 ## License
 
 This hardware design and its documentation are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). See [LICENSE](LICENSE).
+
+The Schenktronics name and logo are trademarks of Nathan Schenk and are not covered by the CC BY-NC-SA 4.0 license.
 
 ## Links
 
