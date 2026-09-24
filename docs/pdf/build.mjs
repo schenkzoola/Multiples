@@ -60,7 +60,7 @@ function page(doc, body) {
 </head>
 <body>
 <header class="cover">
-  <div class="brand">Schenktronics</div>
+  <img class="brand" src="images/logo-dark.png" alt="Schenktronics">
   <h1>Passive Multiple</h1>
   <div class="doc-title">${doc.title}</div>
   <div class="meta">For PCB ${PCB_VERSION} · Updated ${doc.date}</div>

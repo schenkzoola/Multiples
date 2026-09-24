@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/images/logo-light.png">
+  <img src="docs/images/logo-dark.png" alt="Schenktronics" width="320">
+</picture>
+
 # Passive Multiple
 
 A 3HP Eurorack passive multiple from **Schenktronics**. It has two banks of four jacks and a latching pushbutton that links the banks into one 8-jack multiple. It needs no power.
