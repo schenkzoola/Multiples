@@ -21,19 +21,7 @@ The module has no electronics beyond the jacks and the switch, so it does not ne
 
 ## Panel layout
 
-```
-   Multiple
-     ( ) ─┐
-     ( ) ─┤  Bank A
-     ( ) ─┤
-     ( ) ─┘
-      [■]    Link button
-     ( ) ─┐
-     ( ) ─┤  Bank B
-     ( ) ─┤
-     ( ) ─┘
-   Schenk
-```
+<img src="images/panel.svg" alt="Panel layout: Bank A on top, the link button in the middle, Bank B below" width="300">
 
 The lines printed on the panel show the connections: jacks joined by a line are wired together, and the switch symbol between the banks is the link button.
 
