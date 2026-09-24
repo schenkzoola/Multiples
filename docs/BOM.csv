@@ -1,0 +1,6 @@
+Qty,Reference,Description,Manufacturer,Part Number,Link
+8,J1-J8,"3.5mm mono switched jack, vertical, with nut",QingPu,WQP-PJ398SM or WQP518MA,http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html
+1,SW1,"Pushbutton switch, DPDT, latching",APEM,MHPS2285,https://www.digikey.com/product-detail/en/apem-inc/MHPS2285/679-4053-ND/1795385
+1,,"Button cap, cylindrical, ~4-5mm dia, red, fits MHPS2285 plunger",Generic,,
+1,,"Main PCB, 15x100mm, 2-layer, 1.6mm",Schenktronics,Passive Multiple v1.0,
+1,,"Faceplate, 3HP, 1.6mm FR4",Schenktronics,Passive Multiple Faceplate,
