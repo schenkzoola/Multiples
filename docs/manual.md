@@ -51,6 +51,34 @@ When the button is out, the Bank B jacks aren't connected to anything, so the mo
 
 The jacks have no set inputs or outputs, so any jack works as either. You can also use a bank backwards: connect several inputs to one output, or connect one cable to a cable that is too short.
 
+## Patch examples
+
+Each drawing shows the module that sends the signal on the left and the modules that receive it on the right. Any jack in a bank works; the drawings just use the first free ones.
+
+### One clock to four modules
+
+<img src="images/patch-1-clock.svg" alt="A clock patched into Bank A, with kick and snare taken from Bank A and hi-hat and sequencer taken from Bank B, button in" width="360">
+
+Patch a clock into Bank A and press the button in. All seven other jacks now carry the clock, so up to seven drum voices, sequencers or clock dividers stay in time. If you only need three copies, leave the button out and use Bank A alone.
+
+### Pitch to three oscillators
+
+<img src="images/patch-2-pitch.svg" alt="A sequencer pitch CV patched into Bank A and sent to three VCOs, button out" width="360">
+
+Send one sequencer's pitch CV to three VCOs and they play the same notes. Detune them slightly for a thick unison sound, or set them to different octaves. Leave the button out so Bank B stays free for something else. A passive multiple can pull pitch CV slightly out of tune (see [Good practice](#good-practice)), so check the tuning once everything is patched.
+
+### Performance mute
+
+<img src="images/patch-3-mute.svg" alt="A drum voice patched into Bank A and taken out of Bank B to a mixer; the button turns the signal on and off" width="360">
+
+Patch a signal into Bank A and take it out of Bank B, as described in [Using the button as a performance switch](#using-the-button-as-a-performance-switch). Press the button in time with the music to drop the part in and out of the mix. This works well for drums, gates and modulation.
+
+### Two separate multiples
+
+<img src="images/patch-4-split.svg" alt="With the button out, a clock in Bank A goes to two drums, and an LFO in Bank B goes to a filter and a VCA" width="360">
+
+With the button out, the module is two separate 1-in, 3-out multiples. Here Bank A spreads a clock to two drum voices, and Bank B sends one LFO to both a filter's cutoff and a VCA, so they move together. Don't press the button in this patch: it would connect the clock and the LFO outputs together.
+
 ## Good practice
 
 - **Use one output per bank.** Connecting two module outputs to the same bank (or to linked banks) shorts them together. Most Eurorack outputs have protection resistors and survive this, but the signal you get is meaningless. It is also the most common patching mistake with a multiple.
