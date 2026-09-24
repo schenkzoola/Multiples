@@ -3,4 +3,4 @@ Qty,Reference,Description,Manufacturer,Part Number,Link
 1,SW1,"Pushbutton switch, DPDT, latching (or equivalent with same pinout and plunger)",APEM,MHPS2285,https://www.digikey.com/product-detail/en/apem-inc/MHPS2285/679-4053-ND/1795385
 1,,"Button cap, cylindrical, red, 6x5mm, fits MHPS2285 plunger",Tayda,A-5390,https://www.taydaelectronics.com/push-button-switch-caps-red-color-6-x-5-mm-5390.html
 1,,"Main PCB, 15x100mm, 2-layer, 1.6mm",Schenktronics,Passive Multiple v1.0,
-1,,"Faceplate, 3HP, 1.6mm FR4",Schenktronics,Passive Multiple Faceplate,
+1,,"Faceplate, 3HP, 1.6mm aluminium PCB",Schenktronics,Passive Multiple Faceplate,

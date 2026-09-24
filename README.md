@@ -33,7 +33,7 @@ PassiveMultiples/            Main PCB (KiCad 5.1)
   PassiveMultiples.step        3D model
   Gerbers/, *Gerbers.zip       Fabrication files
   BOM.ods                      Original BOM spreadsheet
-PassiveMultiplesFaceplate/   Faceplate (KiCad 5.1, made as a PCB)
+PassiveMultiplesFaceplate/   Faceplate (KiCad 5.1, made as an aluminium PCB)
   PassiveMultiplesFaceplate.dxf  Panel outline and drill drawing
   Gerbers/, *Gerbers.zip         Fabrication files
 docs/                        Manual, assembly guide, BOM, images
@@ -46,7 +46,7 @@ docs/                        Manual, assembly guide, BOM, images
 | Board | Size | Layers | Thickness | Notes |
 |-------|------|--------|-----------|-------|
 | Main PCB | 15 × 100 mm | 2 | 1.6 mm | Standard green is fine |
-| Faceplate | 15 × 128.5 mm | 2 | 1.6 mm | White solder mask with black silkscreen |
+| Faceplate | 15 × 128.5 mm | 1 | 1.6 mm | Aluminium PCB, white solder mask, black silkscreen. Only the front copper layer is used, so FR4 works too. |
 
 Upload the matching `*Gerbers.zip` to any common PCB fab.
 
