@@ -1,0 +1,20 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='-2 1 64 38' width='256' height='152'>
+<title>Step 2: fit the button cap</title>
+<rect x='-2' y='1' width='64' height='38' fill='#fff'/>
+<defs><marker id='arr' viewBox='0 0 10 10' refX='8' refY='5' markerWidth='5' markerHeight='5' orient='auto-start-reverse'><path d='M0 1 L10 5 L0 9 z' fill='#1a1a1a'/></marker></defs>
+<rect x='0' y='30' width='40' height='1.6' fill='#f1f1f1' stroke='#1a1a1a' stroke-width='0.3'/>
+<text x='41.50' y='30.80' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.2' font-weight='normal' fill='#888' text-anchor='start' dominant-baseline='central'>PCB</text>
+<rect x='16' y='21' width='8' height='9' rx='0.4' fill='#fff' stroke='#1a1a1a' stroke-width='0.35'/>
+<line x1='17' y1='30' x2='17' y2='33' stroke='#1a1a1a' stroke-width='0.35'/>
+<line x1='23' y1='30' x2='23' y2='33' stroke='#1a1a1a' stroke-width='0.35'/>
+<rect x='18.6' y='16' width='2.8' height='5' fill='#fff' stroke='#1a1a1a' stroke-width='0.35'/>
+<rect x='17.75' y='4' width='4.5' height='6' rx='0.6' fill='#d9302c' stroke='#1a1a1a' stroke-width='0.35'/>
+<rect x='18.6' y='7.5' width='2.8' height='2.5' fill='#fff' stroke='#1a1a1a' stroke-width='0.2'/>
+<line x1='26.50' y1='7.00' x2='26.50' y2='15.00' stroke='#1a1a1a' stroke-width='0.35' marker-end='url(#arr)'/>
+<text x='28.50' y='7.00' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.6' font-weight='bold' fill='#1a1a1a' text-anchor='start' dominant-baseline='central'>Button cap</text>
+<text x='28.50' y='10.30' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.2' font-weight='normal' fill='#888' text-anchor='start' dominant-baseline='central'>Press straight down</text>
+<text x='28.50' y='13.30' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.2' font-weight='normal' fill='#888' text-anchor='start' dominant-baseline='central'>onto the plunger</text>
+<text x='26.00' y='18.50' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.2' font-weight='normal' fill='#888' text-anchor='start' dominant-baseline='central'>Plunger</text>
+<text x='26.00' y='25.50' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2.2' font-weight='normal' fill='#888' text-anchor='start' dominant-baseline='central'>Switch (already soldered)</text>
+<text x='0.00' y='37.00' font-family='DejaVu Sans, Helvetica, Arial, sans-serif' font-size='2' font-weight='normal' fill='#888' text-anchor='start' dominant-baseline='central'>Side view, not to scale</text>
+</svg>

@@ -2,6 +2,8 @@
 
 Building this kit takes about 20–30 minutes and needs 30 solder joints. It is a good first Eurorack kit.
 
+**Prefer to watch?** There's a video of the whole build: [Watch me assemble a switched passive multiples module!](https://www.youtube.com/watch?v=nGc3uMlrRig)
+
 <img src="images/pcb-and-panel.jpg" alt="PCB and faceplate" width="240">
 
 ## What you need
@@ -37,9 +39,13 @@ Check your kit against this list before you start (full details in the [BOM](BOM
 4. Solder the other five pins. Work quickly so you don't overheat the plastic switch body.
 5. Trim the leads with flush cutters.
 
+<img src="images/assembly-1-switch.svg" alt="Front of the PCB with the SW1 position highlighted, and the back of the PCB with the six switch pins highlighted" width="640">
+
 ## Step 2 — Fit the button cap
 
 Press the button cap onto the switch plunger. Press the button a few times to check that it latches in and releases.
+
+<img src="images/assembly-2-cap.svg" alt="Side view of the button cap being pressed down onto the switch plunger" width="360">
 
 ## Step 3 — Fit the jacks and faceplate
 
@@ -50,13 +56,17 @@ Press the button cap onto the switch plunger. Press the button a few times to ch
 5. Shift the PCB until the button is **centered in its panel hole** and presses in and out without rubbing. The jack legs have a little play in their pads, which gives you room to adjust.
 6. Tighten the nuts snugly. Do not overtighten them, because that can crack the jack threads or mark the panel. Then check the button again.
 
+<img src="images/assembly-3-faceplate.svg" alt="Exploded side view: jacks and button on the PCB, the faceplate above them, and the nuts on top" width="720">
+
 ## Step 4 — Solder the jacks
 
 Turn the assembly over and solder from the back of the PCB.
 
-1. On each jack, solder one leg only. Then check again that the button is centered and moves freely. If it doesn't, reheat those joints and adjust.
-2. Solder all the remaining jack legs (24 joints in total).
+1. On each jack, solder only the square pad. Then check again that the button is centered and moves freely. If it doesn't, reheat those joints and adjust.
+2. Solder the remaining two pads on each jack (24 jack joints in total).
 3. Trim any long leads with flush cutters.
+
+<img src="images/assembly-4-jacks.svg" alt="Back of the PCB: the eight square pads to tack first are filled red, and the other sixteen jack pads are outlined in red" width="640">
 
 Inspect every joint. Each one should be shiny and cone-shaped, with no bridges between neighboring pads.
 
