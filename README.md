@@ -59,4 +59,6 @@ The Schenktronics name and logo are trademarks of Nathan Schenk and are not cove
 ## Links
 
 - Tindie: <https://www.tindie.com/products/schenktronics/passive-multiple/>
+- ModularGrid: <https://modulargrid.net/e/schenktronics-multiple>
+- Build video: <https://www.youtube.com/watch?v=nGc3uMlrRig>
 - Website: <https://schenktronics.com>
