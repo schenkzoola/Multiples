@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "PassiveMultiples-cache") (type "Legacy") (uri "/Users/nathanschenk/Products/Multiples/PassiveMultiples/PassiveMultiples-cache.lib") (options "") (descr "Legacy project cache library"))
+)

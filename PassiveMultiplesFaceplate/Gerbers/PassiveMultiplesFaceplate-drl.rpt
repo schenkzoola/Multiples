@@ -1,0 +1,24 @@
+Drill report for PassiveMultiplesFaceplate.kicad_pcb
+Created on 2026-09-30T21:30:18
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'PassiveMultiplesFaceplate-PTH-drl.gbr' contains
+    plated through holes:
+    =============================================================
+
+    Total plated holes count 0
+
+
+Drill file 'PassiveMultiplesFaceplate-NPTH-drl.gbr' contains
+    unplated through holes:
+    =============================================================
+    T1  3.200mm  0.1260"  (2 holes))
+    T2  6.000mm  0.2362"  (8 holes))
+    T3  6.500mm  0.2559"  (1 hole)
+
+    Total unplated holes count 11
