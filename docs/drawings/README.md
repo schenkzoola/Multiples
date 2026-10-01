@@ -25,8 +25,11 @@ python3 docs/drawings/make_panel_svg.py
 | `Edge.Cuts` lines | Panel outline |
 | Mounting-hole footprints and their drill sizes | Jacks (Ø6.0), the link button (Ø6.5) and the rack screw holes |
 | `F.SilkS` lines, circles and text | Printed lines, the switch symbol and the labels |
+| The `SchentronicsLogo` footprint | The logo, read as its silkscreen polygons and placed at the footprint's position and rotation |
 
 The script tells holes apart by drill size, so if you change a hole size, update `JACK` and `SWITCH` at the top of the script. The "Bank A", "Bank B" and "Link button" labels are added by the script, not read from KiCad.
+
+The faceplate file is KiCad 10's S-expression format, read with a small generic S-expression parser in the script (not regexes), since the logo's artwork lives inside a footprint and needs that footprint's position and rotation applied to come out right.
 
 ## Assembly drawings
 
