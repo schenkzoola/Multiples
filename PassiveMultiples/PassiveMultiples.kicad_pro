@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 3.2,
-          "width": 3.2
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -139,11 +139,13 @@
         "via_dangling": "warning",
         "zones_intersect": "error"
       },
+      "rule_severitieslegacy_courtyards_overlap": true,
+      "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.1,
+        "min_copper_edge_clearance": 0.025,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -204,7 +206,13 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.25,
+        0.5,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -265,7 +273,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PassiveMultiplesFaceplate.kicad_pro",
+    "filename": "PassiveMultiples.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -295,13 +303,66 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J1-PadS)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J1-PadT)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J1-PadTN)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J2-PadTN)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J3-PadTN)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J4-PadTN)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J5-PadT)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J5-PadTN)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J6-PadTN)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J7-PadTN)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J8-PadTN)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(SW1-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(SW1-Pad4)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "idf": "",
-      "netlist": "",
-      "plot": "Gerbers/",
+      "netlist": "PassiveMultiples.net",
+      "plot": "",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -311,20 +372,26 @@
   "schematic": {
     "bus_aliases": {},
     "drawing": {
+      "default_text_size": 50,
       "label_size_ratio": 0.25,
       "pin_symbol_size": 0,
       "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
+    "net_format_name": "Pcbnew",
+    "page_layout_descr_file": "/Users/nathanschenk/Products/NTSFootprints/Schenktronics A4.kicad_wks",
+    "plot_directory": "",
+    "spice_adjust_passive_values": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "PassiveMultiplesFaceplate.kicad_sch",
-        "name": "PassiveMultiplesFaceplate",
+        "filename": "PassiveMultiples.kicad_sch",
+        "name": "PassiveMultiples",
         "uuid": "00000000-0000-0000-0000-000000000000"
       }
-    ],
-    "page_layout_descr_file": "/Users/nathanschenk/Products/NTSFootprints/Schenktronics A4.kicad_wks"
+    ]
   },
   "sheets": [],
   "text_variables": {},
