@@ -497,7 +497,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PassiveMultiples.kicad_pro",
+    "filename": "Multiple.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -585,7 +585,7 @@
   "pcbnew": {
     "last_paths": {
       "idf": "",
-      "netlist": "PassiveMultiples.net",
+      "netlist": "Multiple.net",
       "plot": "",
       "specctra_dsn": "",
       "step": "",
@@ -720,8 +720,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "PassiveMultiples.kicad_sch",
-        "name": "PassiveMultiples",
+        "filename": "Multiple.kicad_sch",
+        "name": "Multiple",
         "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],

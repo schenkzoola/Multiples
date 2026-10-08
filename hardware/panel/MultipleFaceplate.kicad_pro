@@ -265,7 +265,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PassiveMultiplesFaceplate.kicad_pro",
+    "filename": "MultipleFaceplate.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -319,8 +319,8 @@
     "legacy_lib_list": [],
     "top_level_sheets": [
       {
-        "filename": "PassiveMultiplesFaceplate.kicad_sch",
-        "name": "PassiveMultiplesFaceplate",
+        "filename": "MultipleFaceplate.kicad_sch",
+        "name": "MultipleFaceplate",
         "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],
