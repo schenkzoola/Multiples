@@ -7,11 +7,11 @@
 
 A 3HP Eurorack passive multiple from **Schenktronics**. It has two banks of four jacks and a latching pushbutton that links the banks into one 8-jack multiple. It needs no power.
 
-<img src="docs/images/front.jpg" alt="Passive Multiple front panel" width="120">
+<img src="docs/images/outline-front.svg" alt="Passive Multiple front panel" width="120">
 
 ## Features
 
-- 3HP Eurorack, 15 mm deep, and it needs no power
+- 3HP Eurorack, 15 mm deep behind the panel (skiff-friendly), and it needs no power
 - 2 × 4-jack banks, or 1 × 8 when linked
 - A latching link button between the banks: in = linked, out = split
 - The whole kit is through-hole, with 30 solder joints

@@ -4,7 +4,7 @@ Building this kit takes about 20–30 minutes and needs 30 solder joints. It is 
 
 **Prefer to watch?** There's a video of the whole build: [Watch me assemble a switched passive multiples module!](https://www.youtube.com/watch?v=nGc3uMlrRig)
 
-<img src="images/pcb-and-panel.jpg" alt="PCB and faceplate" width="240">
+<img src="images/outline-bare-parts.svg" alt="The faceplate and the bare PCB, before assembly" width="260">
 
 ## What you need
 
@@ -87,7 +87,7 @@ Test with a multimeter in continuity mode. No power is needed. The "tip" contact
 
 Install the module in your case with two M3 screws. Usage details are in the [User Manual](manual.md).
 
-<img src="images/assembled.jpg" alt="Assembled module" width="120">
+<img src="images/outline-iso-top-left.svg" alt="Assembled module, isometric view" width="160">
 
 ## Troubleshooting
 

@@ -1,6 +1,6 @@
 # Passive Multiple — User Manual
 
-<img src="images/front.jpg" alt="Passive Multiple front panel" width="120">
+<img src="images/outline-front.svg" alt="Passive Multiple front panel" width="120">
 
 ## Overview
 
@@ -14,10 +14,12 @@ The module has no electronics beyond the jacks and the switch, so it does not ne
 |---|---|
 | Format | Eurorack, 3HP |
 | Panel | 15 × 128.5 mm |
-| Depth | 15 mm (skiff-friendly) |
+| Depth | 15 mm behind the panel (skiff-friendly) |
 | Power | None needed |
 | Jacks | 8 × 3.5 mm mono (TS) |
 | Switch | Latching push-on/push-off button (in = linked), rated 0.1 A / 30 VDC |
+
+<img src="images/outline-side.svg" alt="Side view of the assembled module, showing the panel, PCB, jacks and switch" width="180">
 
 ## Panel layout
 
