@@ -47,8 +47,6 @@ docs/                         Manual, assembly guide, BOM, images
 | Main PCB | 15 × 100 mm | 2 | 1.6 mm | Standard green is fine |
 | Faceplate | 15 × 128.5 mm | 1 | 1.6 mm | Aluminium PCB, white solder mask, black silkscreen. Only the front copper layer is used, so FR4 works too. |
 
-Gerbers, drill files and the panel `.dxf` aren't included in this repo — they're generated on demand from the KiCad PCB files in `hardware/`, so they can't go stale. If you need them and aren't set up to export from KiCad yourself, reach out (see [Links](#links)) and Nathan can send a `*Gerbers.zip` for either board.
-
 ## License
 
 This hardware design and its documentation are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). See [LICENSE](LICENSE).
