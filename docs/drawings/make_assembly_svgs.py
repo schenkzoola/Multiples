@@ -14,7 +14,7 @@ from pathlib import Path
 from make_panel_svg import FONT, INK, RED, svg
 
 ROOT = Path(__file__).resolve().parents[2]
-PCB = ROOT / "hardware" / "multiple" / "PassiveMultiples.kicad_pcb"
+PCB = ROOT / "hardware" / "multiple" / "Multiple.kicad_pcb"
 OUT = ROOT / "docs" / "images"
 
 GREY = "#888"

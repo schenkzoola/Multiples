@@ -15,7 +15,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-PCB = ROOT / "hardware" / "panel" / "PassiveMultiplesFaceplate.kicad_pcb"
+PCB = ROOT / "hardware" / "panel" / "MultipleFaceplate.kicad_pcb"
 OUT = ROOT / "docs" / "images"
 
 INK = "#1a1a1a"

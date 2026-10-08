@@ -1,4 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "PassiveMultiples-cache") (type "Legacy") (uri "/Users/nathanschenk/Products/Multiples/PassiveMultiples/PassiveMultiples-cache.lib") (options "") (descr "Legacy project cache library"))
+	(lib (name "Multiple-cache") (type "Legacy") (uri "${KIPRJMOD}/Multiple-cache.lib") (options "") (descr "Legacy project cache library"))
 )

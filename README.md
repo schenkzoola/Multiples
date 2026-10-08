@@ -29,12 +29,12 @@ A 3HP Eurorack passive multiple from **Schenktronics**. It has two banks of four
 ```
 hardware/
   multiple/                   Main PCB (KiCad 5.1 schematic, KiCad 10 PCB)
-    PassiveMultiples.sch        Schematic
-    PassiveMultiples.kicad_pcb  PCB layout
-    PassiveMultiples.step       3D model
-    BOM.ods                     Original BOM spreadsheet
+    Multiple.sch                 Schematic
+    Multiple.kicad_pcb           PCB layout
+    Multiple.step                3D model
+    BOM.ods                      Original BOM spreadsheet
   panel/                      Faceplate (KiCad 10, made as an aluminium PCB)
-    PassiveMultiplesFaceplate.kicad_pcb  Faceplate layout
+    MultipleFaceplate.kicad_pcb  Faceplate layout
 manufacturing/
   multiple/                   Gerbers and drill files for the main PCB
   panel/                      Gerbers, drill files and the panel .dxf

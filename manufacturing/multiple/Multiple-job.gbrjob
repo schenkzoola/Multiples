@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "10.0.6"
     },
-    "CreationDate": "2026-10-07T19:37:27-07:00"
+    "CreationDate": "2026-10-07T21:06:22-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "PassiveMultiples",
-      "GUID": "50617373-6976-4654-9d75-6c7469706c65",
+      "Name": "Multiple",
+      "GUID": "4d756c74-6970-46c6-952e-6b696361645f",
       "Revision": "1.1"
     },
     "Size": {
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "PassiveMultiples-F_Cu.gbr",
+      "Path": "Multiple-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PassiveMultiples-B_Cu.gbr",
+      "Path": "Multiple-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PassiveMultiples-F_Paste.gbr",
+      "Path": "Multiple-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PassiveMultiples-B_Paste.gbr",
+      "Path": "Multiple-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PassiveMultiples-F_Silkscreen.gbr",
+      "Path": "Multiple-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PassiveMultiples-B_Silkscreen.gbr",
+      "Path": "Multiple-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PassiveMultiples-F_Mask.gbr",
+      "Path": "Multiple-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "PassiveMultiples-B_Mask.gbr",
+      "Path": "Multiple-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "PassiveMultiples-Edge_Cuts.gbr",
+      "Path": "Multiple-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

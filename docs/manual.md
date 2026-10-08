@@ -94,4 +94,4 @@ With the button out, the module is two separate 1-in, 3-out multiples. Here Bank
 
 ## Circuit
 
-Each jack's tip is wired to the other tips in its bank, and all sleeves are wired together. The two poles of the switch are wired in parallel between the Bank A tips and the Bank B tips. The schematic is in [hardware/multiple/PassiveMultiples.sch](../hardware/multiple/PassiveMultiples.sch) (KiCad 5).
+Each jack's tip is wired to the other tips in its bank, and all sleeves are wired together. The two poles of the switch are wired in parallel between the Bank A tips and the Bank B tips. The schematic is in [hardware/multiple/Multiple.sch](../hardware/multiple/Multiple.sch) (KiCad 5).
